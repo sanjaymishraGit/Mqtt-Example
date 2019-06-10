@@ -1,5 +1,5 @@
 var mqtt = require('mqtt');
-var client = mqtt.connect('mqtt://192.168.0.18:2999')
+var client = mqtt.connect('mqtt://localhost:2999')
 
 client.on('connect', function () {
     client.subscribe('mytopic')

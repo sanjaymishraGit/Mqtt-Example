@@ -5,9 +5,8 @@ You must have node modules installed in your project directory. You also have to
 
 ### Prerequisites
 ```
-npm init
+npm install
 
-npm install mosca --save 
 ```
 
 A MQTT system is made of with a broker, subscribers, and publishers
